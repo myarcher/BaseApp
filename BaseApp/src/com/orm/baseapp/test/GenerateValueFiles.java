@@ -19,7 +19,7 @@ public class GenerateValueFiles {
     private final static int htr[]=new int[]{10,15,20,25,30,35,40,45,50,60,65,70,75,80,100};
     private final static int hsstr[]=new int[]{120,80,220,160,60,260,100,190};
     private final static int sstr[]=new int[]{12,14,16,18,20,22,24,26,28,30};
-    private final static int mstr[]=new int[]{5,10,15,20,25,2,34,45};
+    private final static int mstr[]=new int[]{5,10,15,20,25,2,34,45,46};
     /**
      * {0}-HEIGHT
      */
