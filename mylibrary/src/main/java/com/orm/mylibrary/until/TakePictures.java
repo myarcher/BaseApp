@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.orm.baseapp.contanse.Constances;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +17,8 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.ImageView;
+
+import com.orm.mylibrary.contanse.Constances;
 
 public class TakePictures {
 	private static String mCurrentPhotoPath = null;
@@ -37,7 +38,7 @@ public class TakePictures {
           mCurrentPhotoPath = null;
       }
        
-      activity.startActivityForResult(takePictureIntent, Constances.RESULT_TAKE_IMAGE);       
+      activity.startActivityForResult(takePictureIntent, Constances.RESULT_TAKE_IMAGE);
   }
   
   public static void pickPhoneForIma(Activity activity){
